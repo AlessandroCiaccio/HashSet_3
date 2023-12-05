@@ -22,7 +22,7 @@ public class MainTest {
         HashSet<String> setCopied = set;
         String elementToBeRemoved = "test";
         set.add(elementToBeRemoved);
-        Main.removeElementFromSet(set, elementToBeRemoved);
+        list.removeElementFromSet(set, elementToBeRemoved);
         assertEquals(setCopied,set);
     }
 }
